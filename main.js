@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
       city  = (response.ip, response.city);
 
       $.ajax({
-      url : "https://api.wunderground.com/api/45bc33d3467bf2dc/geolookup/conditions/q/" + abbr +  "/" + city + ".json",
+      url : "https://api.wunderground.com/api/cf3d6d0531d1f384/geolookup/conditions/q/" + abbr +  "/" + city + ".json",
       dataType : "jsonp",
       success : function(parsed_json) {
       var city1 = parsed_json['location']['city'];
